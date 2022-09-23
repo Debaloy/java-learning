@@ -6,7 +6,7 @@ public class JDBCProg {
             // Loading the MySQL driver
             Class.forName("com.mysql.jdbc.Driver");
 
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "DC@(24).com");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "********");
 
             Statement stmt = con.createStatement();
 
